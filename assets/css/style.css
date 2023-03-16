@@ -1,0 +1,246 @@
+* {
+    /* border: 1px solid red; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    /* height: 60px; */
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar-margin {
+    background-color: white;
+    height: 60px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    font-weight: 300;
+}
+
+.navbar-logo {
+    max-height: 60px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    padding-left: 10px;
+    align-self: center;
+}
+
+.nav-login {
+    display: flex;
+    margin-left: auto;
+    justify-content: right;
+    padding: 0;
+    align-self: center;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.nav-item {
+    justify-content: space-evenly;
+    padding: 0 15px;
+    list-style: none;
+}
+
+.nav-link {
+    color: rgba(191, 3, 3, 0.783);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: black
+}
+
+.nav-login-button {
+    background-color: rgba(191, 3, 3, 0.783);
+    color: white;
+    padding: 10px 17.5px;
+    border: 1px solid rgba(191, 3, 3, 0.783);
+}
+
+.nav-logout-button {
+    border: 1px solid rgba(191, 3, 3, 0.783);
+    padding: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+    .navbar,
+    .navbar-items {
+        flex-direction: column;
+    }
+
+    .navbar-items {
+        display: none;
+    }
+
+    .nav-login {
+        margin-left: 0;
+    }
+
+    .navbar-toggle {
+        /* justify-self: center; */
+        display: initial;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    .navbar-toggle-show {
+        display: flex;
+    }
+
+    .nav-login {
+        gap: 30px;
+        margin-left: auto;
+    }
+
+    .nav-menu {
+        padding: initial;
+    }
+
+}
+
+.fa-bars {
+    font-size: 1.8em;
+}
+
+.homepage {
+    margin-bottom: -4px
+}
+
+.homepage-container {
+    position: relative;
+}
+
+.gym-image {
+    width: 100%;
+    z-index: -1;
+}
+
+.homepage-text {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 20px;
+    padding-left: 100px;
+    width: 60%;
+    background: linear-gradient(to left, rgba(255, 255, 255, .675) 50%, rgba(255, 255, 255, 0) 100%);
+    color: rgb(70, 70, 70);
+}
+
+.homepage-title {
+    font-size: 6vw;
+    text-align: right;
+    padding-top: 5vw;
+    font-weight: 550;
+}
+
+.homepage-motto {
+    font-size: 3vw;
+    text-align: right;
+    /* padding-top: 1vw; */
+    margin-bottom: 19.4vw;
+    font-weight: 500;    
+}
+
+.homepage-blurb {
+    background-color: rgb(70, 70, 70);
+    padding: 20px 0;
+    color: white
+}
+
+.blurb-text {
+    text-align: right;
+    margin: 0 30px;
+}
+
+.blurb-quote {
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: italic;
+    text-align: left;
+}
+
+.blurb-reference {
+    font-style: normal;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+
+.homepage-map-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px
+}
+
+.map-text {
+    width: 100%;
+    align-self: center;
+    font-size: 3vw;
+    color: rgba(191, 3, 3, 0.783);
+    /* text-shadow: 1px 1px rgba(191, 3, 3, 0.783); */
+    /* padding: 20px; */
+    transform: rotate(-25deg);
+}
+
+.text-invitation {
+    font-weight: 300;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+    border: 10px solid rgba(191, 3, 3, 0.783);
+}
+
+footer {
+    background-color: rgb(70, 70, 70);   
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px 0 10px;
+}
+
+.footer-header {
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+.social-link {
+    text-decoration: none;
+    color: white;
+}
+
+.social-link:hover {
+    color: rgba(191, 3, 3, 0.783);
+}

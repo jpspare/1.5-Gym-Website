@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="module" src="index.js"></script>
+    <script src="https://kit.fontawesome.com/25d3947e56.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Really Good Climbing Gym</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="navbar">
+        <a href="#" class="navbar-image">
+            <img src="assets/images/navbar-climbing-logo.png" alt="Really Good Climbing Gym Logo"
+                class="navbar-logo">
+        </a>
+        <div class="navbar-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav-items">
+            <ul class="nav-menu navbar-items">
+                <li class="l-nav-item nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="l-nav-item nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="l-nav-item nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="l-nav-item nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+            <ul class="nav-login navbar-items">
+                <li class="r-nav-item nav-item"><a href="sign-in.html" class="nav-link nav-login-button">Log In</a></li>
+                <li class="r-nav-item nav-item"><a href="#" class="nav-link nav-logout-button">Log Out</a></li>
+            </ul>
+        </div>
+    </div>    
+</nav>
+
+<div class="navbar-margin"></div>
+    
+<!-- Homepage -->
+<section class="homepage">
+    <div class="homepage-container">
+        <div class="homepage-image">
+            <img src="assets/images/climbing-gym-background-2K.jpg" 
+                alt="Climbing Gym as background image"
+                class="gym-image">
+        </div>
+        <div class="homepage-text">
+            <h1 class="homepage-title">Really Good Climbing Gym</h1>
+            <h3 class="homepage-motto">Where the routes are good<br> and the pads are soft</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Homepage Quote -->
+<section class="homepage-blurb">
+    <div class="blurb-text">
+        <figure>
+            <blockquote class="blurb-quote">
+                "There are only 3 real sports: bull-fighting, car racing and mountain climbing. All the others are mere games."
+            </blockquote>
+            <cite class="blurb-reference">-Ernest Hemingway</cite>
+        </figure>
+    </div>
+</section>
+
+<!-- Homepage Map -->
+<section class="homepage-map">
+    <div class="homepage-map-container">
+        <div class="map-text">
+            <h1 class="text-invitation">Come climb with us!</h1>
+        </div>
+        <div id="map" class="map"></div>
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMcsrnJy-9QPlnPDa4C0rrmQmVkAL-u94&callback=initMap">
+        </script>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="hours">
+        <h4 class="hours-header footer-header">Hours</h4>
+        <p class="hours-text footer-item">M-F: 6 am - 9 pm</p>
+        <p class="hours-text footer-item">Sat: 6 am - 10 pm</p>
+        <p class="hours-text footer-item">Sun: noon - 8 pm</p>
+    </div>
+    <div class="contact-us">
+        <h4 class="contact-header footer-header">Reach Out</h4>
+        <p class="contact-text footer-item"><i class="fa-solid fa-phone"></i></i> (123) 456-7890</p>
+        <p class="contact-text footer-item"><i class="fa-regular fa-envelope"></i> ReallyGoodClimbing@example.com</p>
+    </div>
+    <div class="socials">
+        <h4 class="socials-header footer-header">Social Media</h4>
+        <div class="footer-item">
+            <a class="social-link" href="#"><p><i class="fa-brands fa-facebook"></i> &nbsp;Facebook</a></p>
+        </div>
+        <div class="footer-item">
+            <a class="social-link" href="#"><p><i class="fa-brands fa-tiktok"></i> &nbsp;TikTok</a></p>
+        </div>
+        <div class="footer-item">
+            <a class="social-link" href="#"><p><i class="fa-brands fa-instagram"></i> &nbsp;Instagram</a></p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

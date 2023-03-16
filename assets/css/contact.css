@@ -1,0 +1,77 @@
+.contact-header-container {
+    position: relative;
+    margin-bottom: -4px;
+}
+
+.contact-gym-image {
+    width: 100%;
+    z-index: -1;
+}
+
+.contact-header-text {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    background: linear-gradient(to left, rgba(255, 255, 255, .675) 50%, rgba(255, 255, 255, 0) 100%);
+    color: rgb(70,70,70);
+    margin-bottom: 4px;
+    padding-top: 30vw;
+    padding-right: 20px;
+}
+
+.contact-title {
+    font-size: 6vw;
+    font-weight: 550;
+    text-align: right;
+}
+
+.contact-blurb-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-size: 2vw;
+    padding: 10px
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(191, 3, 3, 0.3);
+}
+
+.contact-form {
+    width: 50%;
+    max-width: 600px;
+}
+
+fieldset {
+    width: 100%;
+    background-color: white;
+    border-style: none;
+    margin: 20px 0;
+}
+
+.input-field, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid rgba(191, 3, 3, 0.783);
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.comment-button {
+    background-color: rgba(191, 3, 3, 0.783);
+    color: white;
+    border: 1px solid rgba(191, 3, 3, 0.783);
+    padding: 10px;
+    text-justify: right;
+}

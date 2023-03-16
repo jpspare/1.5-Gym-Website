@@ -1,0 +1,64 @@
+.signin-container {
+    position: relative;
+    margin: -4px;
+}
+
+.signin-gym-image {
+    width: 100%;
+    z-index: -1;
+}
+
+
+.signin-form {
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.552);
+    padding: 2%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.form-label, .blue-link {
+    font-weight: 400;
+    font-size: 2.3vw;
+}
+
+.form-input-field {
+    font-weight: 500;
+    font-size: 2.0vw;
+}
+
+.form-input-field {
+    width: 100%;
+}
+
+.username-input {
+    padding-bottom: 10px;
+}
+
+.form-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin-button-container {
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+}
+
+.signin-button {
+    font-weight: 500;
+    font-size: 2.5vw;
+}

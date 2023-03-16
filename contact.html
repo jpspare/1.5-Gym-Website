@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <script type="module" src="index.js"></script>
+    <script src="https://kit.fontawesome.com/25d3947e56.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="navbar">
+        <a href="index.html" class="navbar-image">
+            <img src="assets/images/navbar-climbing-logo.png" alt="Really Good Climbing Gym Logo"
+                class="navbar-logo">
+        </a>
+        <div class="navbar-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav-items">
+            <ul class="nav-menu navbar-items">
+                <li class="l-nav-item nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="l-nav-item nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="l-nav-item nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="l-nav-item nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+            </ul>
+            <ul class="nav-login navbar-items">
+                <li class="r-nav-item nav-item"><a href="sign-in.html" class="nav-link nav-login-button">Log In</a></li>
+                <li class="r-nav-item nav-item"><a href="index.html" class="nav-link nav-logout-button">Log Out</a></li>
+            </ul>
+        </div>
+    </div>    
+</nav>
+
+<div class="navbar-margin"></div>
+
+<!-- Contact Header -->
+<div class="contact-header">
+    <div class="contact-header-container">
+        <div class="contact-header-image">
+            <img src="assets/images/climbing-gym-background-2K.jpg" 
+                alt="Climbing Gym as background image"
+                class="contact-gym-image">
+        </div>
+        <div class="contact-header-text">
+            <h3 class="contact-title">Questions? Comments!</h3>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Blurb -->
+<div class="contact-blurb-container">
+    <div class="contact-blurb">
+        <p class="contact-blurb-text">We'd love to hear from you! Fill out the form below</p>
+    </div>
+</div>
+
+<!-- Contact Form -->
+<div class="contact-form-container">
+    <div class="contact-form">
+        <form action="/index.html">
+            <fieldset>
+                <div class="name-field">
+                    <input type="text" class="input-field" id="name" placeholder="Name">
+                </div>
+                <div class="email-field">
+                    <input type="email" class="input-field" id="email" placeholder="Email (Optional)">
+                </div>
+                <div class="phone-field">
+                    <input type="number" class="input-field phone-input-field" id="phone" placeholder="Phone (Optional)">
+                </div>
+                <div class="comment-field">
+                    <textarea name="comments" id="comments" cols="30" rows="10" class="comment-field-input" 
+                        placeholder="Let us know what comments or questions you have..."></textarea>
+                </div>
+                <div class="comment-button-container">
+                    <input class="comment-button" type="submit" name="submit" id="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="hours">
+        <h4 class="hours-header footer-header">Hours</h4>
+        <p class="hours-text footer-item">M-F: 6 am - 9 pm</p>
+        <p class="hours-text footer-item">Sat: 6 am - 10 pm</p>
+        <p class="hours-text footer-item">Sun: noon - 8 pm</p>
+    </div>
+    <div class="contact-us">
+        <h4 class="contact-header footer-header">Reach Out</h4>
+        <p class="contact-text footer-item"><i class="fa-solid fa-phone"></i></i> (123) 456-7890</p>
+        <p class="contact-text footer-item"><i class="fa-regular fa-envelope"></i> ReallyGoodClimbing@example.com</p>
+    </div>
+    <div class="socials">
+        <h4 class="socials-header footer-header">Social Media</h4>
+        <div class="footer-item">
+            <a class="social-link" href="#"><p><i class="fa-brands fa-facebook"></i> &nbsp;Facebook</a></p>
+        </div>
+        <div class="footer-item">
+            <a class="social-link" href="#"><p><i class="fa-brands fa-tiktok"></i> &nbsp;TikTok</a></p>
+        </div>
+        <div class="footer-item">
+            <a class="social-link" href="#"><p><i class="fa-brands fa-instagram"></i> &nbsp;Instagram</a></p>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>

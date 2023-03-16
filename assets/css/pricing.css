@@ -1,0 +1,49 @@
+.pricing-header-container {
+    position: relative;
+}
+
+.pricing-gym-image {
+    width: 100%;
+    z-index: -1;
+}
+
+.pricing-header-text {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    background: linear-gradient(to left, rgba(255, 255, 255, .675) 50%, rgba(255, 255, 255, 0) 100%);
+    color: rgb(70,70,70);
+    margin-bottom: 4px;
+    padding-top: 30vw;
+    padding-right: 20px;
+}
+
+.pricing-text {
+    font-size: 6vw;
+    font-weight: 550;
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    padding: 10px 10vw;
+}
+
+th {
+    text-decoration: underline;
+}
+
+tr:hover {
+    background-color: rgba(191, 3, 3, 0.783);
+}
